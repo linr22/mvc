@@ -1,0 +1,20 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Magic number{% endblock %}
+
+{% block main %}
+    <div class="lucky">
+        <a class = "girImg" href="{{ asset('img/girlang.png') }}">
+            <img src="{{ asset('img/girlang.png') }}" width="450" alt="">
+        </a>
+
+        <div class="box">
+            <h1>Magic number</h1>
+            <p>This is the magic number for the moment: {{ number }}</p>
+        </div>
+
+        <a class = "girImg" href="{{ asset('img/girlang.png') }}">
+            <img src="{{ asset('img/girlang.png') }}" width="450" alt="">
+        </a>
+    </div>
+{% endblock %}

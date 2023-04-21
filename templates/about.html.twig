@@ -1,0 +1,24 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block main %}
+    <div class="mainCol">
+        <h1>Om</h1>
+
+        <h2>MVC</h2>
+
+        <p>Denna hemsida tillkommer för kursen objektorienterad webteknologier (mvc). Mycket av fokuset ligger i just objektorienterad programmering i PHP och webaserat ramverk.</p>
+        
+        <a href="{{ asset('img/webprogbild.jpg') }}">
+            <img src="{{ asset('img/webprogbild.jpg') }}" width="100%" alt="Image of programming">
+        </a>
+
+        <h2>Syfte</h2>
+        <p>Syftet med kursen är att kunna lära ut, och slutligen ha en vis förståelse om objektorienterad programmering inom webbaserade ramverk.</p>
+    </div>
+    <div class="biCol">
+        <p>Detta är kursens <a href="https://github.com/dbwebb-se/mvc">gitrepo</a></p>
+        <p>Detta är mitt gittrepo för kursen: <a href="https://github.com/linr22/mvc">gitrepo</a></p>
+    </div>
+{% endblock %}

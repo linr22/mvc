@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+a:hover {
+    color: #411de2;
+}
+
+/*Header*/
+.site-header {
+    background-size: cover;
+    height: 200px;
+}
+
+.site-title {
+    font-size: 3em;
+    text-align: center;
+    font-style: italic;
+}
+
+/*main navbar*/
+.main-nav {
+    font-size:30px;
+    padding:2%;
+    text-align:center
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 0.1em;
+    text-decoration: none;
+}
+
+/*report navbar*/
+.report-nav {
+    font-size:15px;
+    padding:2%;
+    text-align:center
+}
+
+
+.report-nav a {
+    display: inline-block;
+    padding: 0.1em;
+}
+
+
+
+/*About*/
+.mainCol {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+
+.biCol {
+    padding-top: 50px;
+    margin: 40px;
+}
+
+.biCol:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*lucky*/
+.lucky {
+    text-align: center;
+}
+
